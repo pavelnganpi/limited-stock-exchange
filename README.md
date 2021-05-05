@@ -6,8 +6,9 @@ To run the app locally, make sure you have docker installed and running, Follow 
 
 1. `git clone git@github.com:paveyn/limited-stock-exchange.git`
 2. `cd limited-stock-exchange`
-3. `docker build -t limited-stockexchange-app .`
-4. `docker run -p 9093:9093 -it limited-stockexchange-app`
+3. `go test` to run the unit tests
+4. `docker build -t limited-stockexchange-app .`
+5. `docker run -p 9093:9093 -it limited-stockexchange-app`
 
 App should be running locally on `locahost:9093`
 
